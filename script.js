@@ -23,3 +23,6 @@ function tabuadaDinamica(n) {
     }
     return tabuada;
   }
+
+console.table(tabuada());
+console.table(tabuadaDinamica(15));
