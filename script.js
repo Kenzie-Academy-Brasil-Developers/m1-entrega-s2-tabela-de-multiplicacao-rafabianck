@@ -7,7 +7,7 @@ function tabuada() {
         tabuada[linha][coluna] = linha * coluna;
       }
     }
-    return tabuada;
+    console.table(tabuada);
   }
 
 // BÔNUS
@@ -21,8 +21,7 @@ function tabuadaDinamica(n) {
         tabuada[linha][coluna] = linha * coluna;
       }
     }
-    return tabuada;
+    console.table(tabuada);
   }
 
-console.table(tabuada());
-console.table(tabuadaDinamica(15));
+
